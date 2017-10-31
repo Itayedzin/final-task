@@ -9,7 +9,7 @@ function isValidCard (cardNumber){
   console.log (card);
   console.log(cardArray);
 
-  var totalAdd = 0; //declarando el valor de la suma total de los números en posición par
+  var totalAdd = 0; //declarando el valor de la suma total de los números
 
   for (i = 0; i < cardArray.length; i++) { //hacer un for para iterar valor por valor del array
     if (i % 2 !== 0) { //asegurarnos que sólo sean en posición par
